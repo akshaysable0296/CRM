@@ -1,0 +1,4 @@
+WebDriver driver = new ChromeDriver();
+		driver.get("https://demo.actitime.com/login.do");
+		String actualurl = driver.getCurrentUrl();
+		String expectedurl = "https://demo.actitime.com/login.do";
